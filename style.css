@@ -1,0 +1,277 @@
+:root{
+  --fontMain: 1.6rem;
+  --fontMainColor: bold;
+  --fontBoxColor: #464646;
+  --background1: #ffffff;
+}
+
+* {
+  background: darkcyan;
+}
+
+html{
+  display: flex;
+  justify-content: center;
+}
+
+.tudo{
+  max-width: 360px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin: 0.4rem 0 0.4rem;
+  max-width: 360px;
+}
+
+.menu__header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: 10px;
+  /* background: var(--background1); */
+  box-sizing: border-box;
+}
+
+.menu__header__img{
+  height: 1.2rem;
+}
+
+.menu__title{
+  font-size: 0.9rem;
+}
+
+.menu__list {
+  display: none;
+}
+.menu__list__item__contato {
+  list-style: none;
+}
+
+.menu__list__item__contato__link {
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  margin-right: 1rem;
+}
+
+.title__profile {
+  background: url("/assets/Profile.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:135px;
+  border-radius: 100%;
+  height: 150px;
+  margin: 1.5rem 0 1rem 1rem;
+  width:  135px;
+}
+
+.title__container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', Times, serif;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.title__bio{
+  font-size: var(--font1);
+  font-weight: var(--fontMainColor);
+}
+
+.title__subsection{
+  font-size: 1rem;
+  font-weight:100;
+}
+
+.title__network{
+  display: flex;
+  justify-content:center;
+  gap: 0.9rem
+}
+
+.title__network__link{
+  text-decoration: none;
+  font-size: 0.7rem;
+  margin-right: 15px;
+}
+
+.about__container{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', Times, serif;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.about__title{
+  font-size: var(--font1);
+  font-weight: var(--fontMainColor);
+  margin: 1rem;
+}
+
+.skills{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.skills__title{
+  font-size: var(--font1);
+  font-weight: var(--fontMainColor);
+  margin: 1rem;
+}
+
+.skills__box{
+  border: 1px;
+  background-color: var(--background1);
+}
+
+.skills__line{
+  display: flex;
+  justify-content: center;
+  width: 17rem;
+  height: 20rem;
+  margin: 1rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skills__list{ 
+  width: 8rem;
+  background-color: var(--background1);
+}
+
+.skills__img {
+  margin: 2rem 0 0 1rem;
+  background-color: var(--background1);
+  width: 10px;
+  height: 24px;
+}
+
+.skills__name {
+  margin: 0.2rem 0 0 1rem;
+  background-color: var(--background1);
+  color: var(--fontBoxColor);
+  }
+
+  .hobbies{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hobbies__title{
+    font-size: var(--font1);
+    font-weight: var(--fontMainColor);
+    margin: 1rem;
+  }
+  
+  .hobbies__box{
+    border: 1px;
+    background-color: var(--background1);
+  }
+  
+  .hobbies__line{
+    display: flex;
+    justify-content: center;
+    width: 17rem;
+    height: 20rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+  
+  .hobbies__list{ 
+    width: 8rem;
+    background-color: var(--background1);
+  }
+  
+  .hobbies__img {
+    margin: 2rem 0 0 1rem;
+    background-color: var(--background1);
+  }
+  
+  .hobbies__name {
+    margin: 0.2rem 0 0 1rem;
+    background-color: var(--background1);
+    color: var(--fontBoxColor);
+  }
+  
+  .academic{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      /*background: #EAF2FD;*/
+    }
+
+    .academic__title{
+      font-size: var(--font1);
+      font-weight: var(--fontMainColor);
+      margin: 1rem;
+    }
+
+    .academic__courses__list{
+      background-color: var(--background1);
+      display: flex;
+      flex-direction: column;
+      gap: 0.4rem;
+    }
+
+    .academic__courses__item__img.pic__1{
+      background: url("/assets/Universidad.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 40%;
+      height: 120px;
+    }
+
+    .academic__courses__item__img.pic__2{
+      background: url("/assets/alura_logo.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 40%;
+      height: 120px;
+    }
+
+    .experience{
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      /*background: #EAF2FD;*/
+     }
+
+    .experience__section__title{
+      font-size: var(--font1);
+      font-weight: var(--fontMainColor);
+      margin: 1rem;
+    }
+
+    .experience__img{
+      width: 21.3rem;
+      height: 8rem;
+    }
+
+    .experience__info{
+      display: flex;
+      flex-direction: column;
+      margin: 1rem 0 1rem 0;
+      gap: 0.4rem;
+    }
+
+
+
+
+
+
+
+
+
+
