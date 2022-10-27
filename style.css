@@ -1,5 +1,6 @@
 :root{
   --fontMain: 1.6rem;
+  --fontSecundary: 1rem;
   --fontMainColor: bold;
   --fontBoxColor: #464646;
   --background1: #ffffff;
@@ -7,15 +8,14 @@
 
 * {
   background: darkcyan;
-}
-
-html{
-  display: flex;
-  justify-content: center;
+  box-sizing: border-box;
 }
 
 .tudo{
-  max-width: 360px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
 .menu {
@@ -23,7 +23,6 @@ html{
   justify-content: space-between;
   gap: 0.5rem;
   margin: 0.4rem 0 0.4rem;
-  max-width: 360px;
 }
 
 .menu__header {
@@ -84,8 +83,7 @@ html{
 }
 
 .title__subsection{
-  font-size: 1rem;
-  font-weight:100;
+  font-size: var(--fontSecundary);
 }
 
 .title__network{
@@ -115,6 +113,10 @@ html{
   margin: 1rem;
 }
 
+.about__paragraph{
+  font-size: var(--fontSecundary);
+}
+
 .skills{
   display: flex;
   align-items: center;
@@ -128,10 +130,6 @@ html{
   margin: 1rem;
 }
 
-.skills__box{
-  border: 1px;
-  background-color: var(--background1);
-}
 
 .skills__line{
   display: flex;
@@ -141,6 +139,11 @@ html{
   margin: 1rem;
   flex-wrap: wrap;
   gap: 1rem;
+}
+
+.skills__box{
+  border: 1px;
+  background-color: var(--background1);
 }
 
 .skills__list{ 
@@ -209,8 +212,9 @@ html{
       align-items: center;
       display: flex;
       flex-direction: column;
+      font-size: 0.8rem;
       /*background: #EAF2FD;*/
-    }
+        }
 
     .academic__title{
       font-size: var(--font1);
@@ -218,19 +222,21 @@ html{
       margin: 1rem;
     }
 
+
     .academic__courses__list{
-      background-color: var(--background1);
       display: flex;
       flex-direction: column;
       gap: 0.4rem;
+      width: 16rem;
     }
 
     .academic__courses__item__img.pic__1{
       background: url("/assets/Universidad.jpg");
       background-position: center;
       background-repeat: no-repeat;
-      background-size: 40%;
+      background-size: 30%;
       height: 120px;
+      background-color: #ffffff;
     }
 
     .academic__courses__item__img.pic__2{
@@ -239,6 +245,7 @@ html{
       background-repeat: no-repeat;
       background-size: 40%;
       height: 120px;
+      background-color: #ffffff;
     }
 
     .experience{
@@ -246,6 +253,7 @@ html{
       display: flex;
       flex-direction: column;
       /*background: #EAF2FD;*/
+      font-size: 0.8rem;
      }
 
     .experience__section__title{
@@ -254,9 +262,10 @@ html{
       margin: 1rem;
     }
 
+
     .experience__img{
-      width: 21.3rem;
       height: 8rem;
+      width: 16rem;
     }
 
     .experience__info{
@@ -266,7 +275,69 @@ html{
       gap: 0.4rem;
     }
 
+    .experience__description{
+      font-size: var(--fontSecundary);
+    }
 
+    .experiencia__botao--repo{
+      /*color: #2A7AE4;*/
+      width: 5rem;
+      height: 1.5rem;
+      font-size: 0.6rem;
+    }
+    
+    .experience__botao--demo{
+      width: 5rem;
+      height: 1.5rem;
+      font-size: 0.6rem;
+    }
+
+    .formcontato{
+      display: flex;
+      justify-content: center;
+    }
+
+    .formcontato__img{
+      display: none;
+    }
+    .formcontato__text, .formcontato__subtext{
+      display: flex;
+      flex-direction: column;
+      width: 16rem;
+      font-size: 0.6rem;
+      gap: 0.5rem;
+    } 
+
+
+     .formcontato__title{
+      font-size: 1rem;
+      font-weight: 200;
+    } 
+
+    .formcontato__form{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 16rem;
+      height: 8rem;
+    } 
+    
+    .formcontato__botao{
+      width: 5rem;
+      height: 1.7rem;
+      margin-top: 0.5rem;
+      background: #2A7AE4;
+      color: #FFFFFF;
+    }
+
+    .footer__rodape{
+      color: #464646;
+      display: flex;
+      justify-content: center;
+
+      font-size: 0.7rem;
+      margin-top: 0.5rem;
+    }
 
 
 
