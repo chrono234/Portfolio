@@ -323,25 +323,23 @@
 .formcontato__contacto {
   width: 100%;
   max-width: 26rem;
+  font-size: var(--fontSecundary);
+  gap: 0.2rem;
 }
 
 .formcontato__img {
   display: none;
 }
 
-.formcontato__text {
-  font-size: 0.5rem;
-}
-
+.formcontato__subtext {
+  margin: 0.5rem 1rem;
+} 
 .formcontato__title {
   font-size: 1rem;
   font-weight: 500;
   margin: 0 0 0.5rem 1rem;
 }
 
-.formcontato__subtext {
-  margin: 0.5rem 1rem;
-}
 
 .formcontato__form {
   display: flex;
@@ -364,7 +362,7 @@
   color: #464646;
   display: flex;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 0.5rem;
   margin-top: 0.5rem;
 }
 
