@@ -1,0 +1,39 @@
+.about {
+  max-width: 600px;
+  margin: auto;
+}
+
+.about__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.about__title {
+  font-size: var(--fontMain);
+  font-weight: var(--fontMainColor);
+  margin-bottom: 1rem;
+}
+
+.about__paragraph {
+  font-size: var(--fontSecundary);
+}
+
+@media only screen and (min-width: 768px) {
+  .about {
+    max-width: none;
+    margin: 1rem;
+  }
+
+  .about__title {
+    font-size: var(--fontMain2);
+    font-weight: var(--fontMainColor);
+    margin-bottom: 1rem;
+  }
+
+  .about__paragraph {
+    font-size: var(--fontSecundary2);
+  }
+  
+}

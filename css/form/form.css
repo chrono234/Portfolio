@@ -1,0 +1,145 @@
+.formcontato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formcontato__contacto {
+  width: 100%;
+  width: calc(100vw - 1rem);
+  max-width: 26rem;
+  font-size: var(--fontSecundary);
+  gap: 0.2rem;
+}
+
+.formcontato__img {
+  display: none;
+}
+
+.formcontato__title {
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 0 0.5rem 1rem;
+}
+
+.formcontato__subtext {
+  margin: 0.5rem 1rem;
+}
+
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  margin: 0 1rem;
+}
+
+.formcontato__botao {
+  background: #2a7ae4;
+  border: 1px solid;
+  color: #fff;
+  font-size: 0.5rem;
+  height: 1.8rem;
+  width: 5.4rem;
+  margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  .formcontato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .formcontato__contacto {
+    width: calc(100vw - 2.4rem);
+    max-width: 55rem;
+  }
+
+  .formcontato__img {
+    display: none;
+  }
+
+  .formcontato__text {
+    font-size: var(--fontSecundary2);
+    max-width: 55.5rem;
+  }
+
+  .formcontato__title {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .formcontato__subtext {
+    margin: 0.2rem 0 0;
+  }
+
+  .formcontato__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 15rem;
+    margin: 0.5rem 0;
+    gap: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  .formcontato__botao {
+    background: #2a7ae4;
+    border: 1px solid;
+    color: #fff;
+    font-size: var(--fontSecundary);
+    height: 1.7rem;
+    width: 6rem;
+    margin-top: 0.5rem;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .formcontato__contacto {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .formcontato__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 18.7rem;
+    gap: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .formcontato__text {
+    font-size: 0.9rem;
+    max-width: 30rem;
+    height: 24.2rem;
+  }
+
+  .formcontato__subtext {
+    margin: 0.4rem 0.4rem 0.9rem;
+  }
+
+  .formcontato__input {
+    height: 3rem;
+  }
+
+  .formcontato__textarea {
+    height: 6rem;
+  }
+
+  .formcontato__img {
+    display: flex;
+    height: 24rem;
+    width: 24.7rem;
+  }
+
+  .formcontato__botao {
+    background: #2a7ae4;
+    border: 1px solid;
+    color: #fff;
+    font-size: var(--fontSecundary);
+    height: 2.6rem;
+    width: 6rem;
+    margin-top: 0;
+  }
+}
