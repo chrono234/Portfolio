@@ -40,7 +40,7 @@
   align-items: center;
   color: var(--fontBoxColor);
   display: flex;
-  font-size: 0.2rem;
+  font-size: var(--fontSecondary);
   min-width: 1.5rem;
   text-decoration: none;
 }
