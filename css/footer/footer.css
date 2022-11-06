@@ -11,7 +11,7 @@
     color: var(--fontBoxColor);
     display: flex;
     justify-content: center;
-    font-size: var(--fontSecundary2);
+    font-size: var(--fontSecondary2);
     margin-top: 0.5rem;
   }
 }

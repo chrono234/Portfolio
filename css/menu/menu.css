@@ -19,8 +19,8 @@
 }
 
 .menu__title {
-  font-size: 0.5rem;
   color: var(--fontBoxColor);
+  font-size: 0.5rem;
 }
 
 .menu__list {
@@ -32,10 +32,10 @@
 }
 
 .menu__list__item__contato__link {
-  list-style: none;
-  font-size: 0.5rem;
-  margin-right: 1rem;
   color: var(--fontBoxColor);
+  font-size: 0.5rem;
+  list-style: none;
+  margin-right: 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -49,15 +49,15 @@
   }
 
   .menu__list__item__contato__link {
-    list-style: none;
     font-size: var(--fontMain2);
+    list-style: none;
     margin-right: 1rem;
   }
 }
 @media only screen and (min-width: 992px) {
   .menu {
-    display: flex;
     align-items: center;
+    display: flex;
   }
 
   .menu__list {

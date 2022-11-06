@@ -1,12 +1,19 @@
 :root {
   --fontMain: 0.9rem;
   --fontMainColor: bold;
-  --fontSecundary: 0.7rem;
+  --fontSecondary: 0.7rem;
   --fontBoxColor: #464646;
   --background1: #ffffff;
+  --warning-color: #df2525;
+  --secondary-color: #d6eaff;
+  --transparency-color: #4d4d4d33;
+
+  --font-weigth-input: 300; 
+
   /**higher-screen-styles*/
   --fontMain2: 1.3rem;
-  --fontSecundary2: 1rem;
+  --fontSecondary2: 1rem;
+  --warning-size: 0.9rem;
 }
 
 * {
@@ -19,17 +26,17 @@
 }
 
 .main__container {
-  justify-content: center;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
   min-width: 260px;
 }
 
 @media only screen and (min-width: 768px) {
   .main__container {
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 5px;
+    justify-content: center;
   }
 }

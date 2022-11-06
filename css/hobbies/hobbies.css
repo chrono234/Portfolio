@@ -12,11 +12,11 @@
 
 
 .hobbies__box {
-  display: flex;
-  justify-content: center;
   border: 1px;
-  width: 43vw;
+  display: flex;
   font-size: 0.5rem;
+  justify-content: center;
+  width: 43vw;
 }
 
 .hobbies__line {
@@ -26,9 +26,9 @@
 }
 
 .hobbies__list {
-  width: 10rem;
   border: #464646 solid;
   height: 5rem;
+  width: 10rem;
 }
 
 .hobbies__img {
@@ -37,8 +37,8 @@
 }
 
 .hobbies__name {
-  margin: 0.2rem 0 0 1rem;
   color: var(--fontBoxColor);
+  margin: 0.2rem 0 0 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -48,11 +48,11 @@
   }
 
   .hobbies__box {
-    display: flex;
-    justify-content: space-between;
     border: 1px;
-    width: 30.8vw;
+    display: flex;
     font-size: 0.5rem;
+    justify-content: space-between;
+    width: 30.8vw;
   }
 
   .hobbies__line {
@@ -62,8 +62,8 @@
   }
 
   .hobbies__list {
-    width: 20rem;
     border: #464646 solid;
     height: 5rem;
+    width: 20rem;
   }
 }

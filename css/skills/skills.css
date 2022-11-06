@@ -18,16 +18,16 @@
 
 .skills__box {
   display: flex;
-  justify-content: center;
   border: 1px;
-  width: 43vw;
   font-size: 0.5rem;
+  justify-content: center;
+  width: 43vw;
 }
 
 .skills__list {
-  width: 10rem;
   border: #464646 solid;
   height: 5rem;
+  width: 10rem;
 }
 
 .skills__img {
@@ -36,8 +36,8 @@
 }
 
 .skills__name {
-  margin: 0.2rem 0 0 1rem;
   color: var(--fontBoxColor);
+  margin: 0.2rem 0 0 1rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -52,16 +52,16 @@
   }
 
   .skills__box {
-    display: flex;
-    justify-content: space-between;
     border: 1px;
-    width: 30.8vw;
+    display: flex;
     font-size: 0.5rem;
+    justify-content: space-between;
+    width: 30.8vw;
   }
 
   .skills__list {
-    width: 20rem;
     border: var(--fontBoxColor) solid;
     height: 5rem;
+    width: 20rem;
   }
 }
