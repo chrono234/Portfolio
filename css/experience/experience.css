@@ -59,6 +59,8 @@
     margin-bottom: 1rem;
     max-width: 54.8rem;
     width: calc(100vw - 2.5rem);
+    border: 2px solid #3c0b5b;
+    border-radius: 45% 55% 72% 28% / 30% 23% 77% 70%;
   }
 
   .experience__info {
