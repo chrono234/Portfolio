@@ -29,14 +29,14 @@
 }
 
 .academic__courses__item__img.pic__1 {
-  background: url(./assets/Universidad.png);
+  background-image: url('assets/universidad.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 33%;
 }
 
 .academic__courses__item__img.pic__2 {
-  background: url(./assets/alura_logo.png);
+  background-image: url('assets/alura_logo.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 45%;
