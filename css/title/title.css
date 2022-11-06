@@ -38,7 +38,7 @@
 
 .title__network__link {
   align-items: center;
-  color: #464646;
+  color: var(--fontBoxColor);
   display: flex;
   font-size: 0.1vw;
   min-width: 1.5rem;
