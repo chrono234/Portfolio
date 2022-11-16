@@ -21,7 +21,7 @@ Git
  - [Alura-LATAM](https://www.aluracursos.com/)
 
 
-# Authors
+## Authors
 
 - [chrono234](https://github.com/chrono234)
 
