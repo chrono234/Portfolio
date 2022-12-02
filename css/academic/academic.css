@@ -23,11 +23,9 @@
 
 .academic__courses__item__img.pic__1,
 .academic__courses__item__img.pic__2 {
-  border: 44px #464646 solid; /**/
+  border: 44px #2e7bb1 solid;
   height: 6rem;
   margin-bottom: 0.5rem;
-  height: 1rem;  /***/
-  border: 44px #464646 solid;
 }
 
 .academic__courses__item__img.pic__1 {
