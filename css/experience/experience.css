@@ -18,7 +18,6 @@
 }
 
 .experience__img {
-  height: 20vh;
   max-width: 24rem;
   width: calc(100vw - 3rem);
 }
